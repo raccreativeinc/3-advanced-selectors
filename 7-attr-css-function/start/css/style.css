@@ -38,7 +38,7 @@ h1::after {
 }
 
 .d-loads a::after {
-  content: attr(title);
+  content: attr(href);
   display: inline-block;
   color: initial;
   font-size: .65em;
